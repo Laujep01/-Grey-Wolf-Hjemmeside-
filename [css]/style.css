@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F5E9DA;
+}
+
+body {
+    background-color: #14ff08;
+    width: 360px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    font-family: fantasy;
+    letter-spacing: 2em;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+main > section {
+display: flex;
+}
+
+main > section > img {
+    max-width: 50%;
+}

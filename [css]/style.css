@@ -53,6 +53,29 @@ img {
   display: block;
 }
 
+#index #testbox_51 {
+   display:none; 
+      }
+
+      #index #burgermenu,
+      #index #burgermenu_X {
+          margin-top: 0;
+          margin-right: auto;
+          margin-bottom: 0;
+          margin-left: 0;
+    }
+
+
+
+    #testbox_51 {
+      display: none;
+    }
+
+    #testbox_51.visible {
+        display: block;
+    }
+
+
 main#billeder > img {
 max-width: 100%;
   }
@@ -81,3 +104,14 @@ main > section > a {
   padding: 36px;
   text-decoration: none;
 }
+
+#luk_dropdown_menu {
+   text-align: center;
+}
+ 
+
+#luk_dropdown_menu img {
+    margin: 0 auto;
+ }
+  
+ 

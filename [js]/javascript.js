@@ -38,7 +38,7 @@ async function header() {
        
 
         const testbox_51 = document.getElementById("testbox_51");
-        testbox_51.style.display = "block";
+        // testbox_51.style.display = "block";
 
         
 
@@ -48,11 +48,13 @@ async function header() {
           if(target){ // do something when clicking element with id "søgning" (toggle visibility of "søgefelt" and "testbox_51")
             if (søgefelt.style.display === "none") {
               søgefelt.style.display = "block";
-              testbox_51.style.display = "none";
               søgefelt.focus();
+              testbox_51.classList.remove("visible");
+
             } else {
-              testbox_51.style.display = "block";
+              //testbox_51.style.display = "block";
               søgefelt.style.display = "none";
+              testbox_51.classList.add("visible");
             }
 
          }

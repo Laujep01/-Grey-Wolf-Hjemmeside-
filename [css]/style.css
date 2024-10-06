@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+body {
+/*   
+border-right: 10px solid black;
+border-left: 10px solid black; 
+*/
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -136,6 +143,10 @@ footer {
     flex-direction: row;
 }
 
+.alternativ img {
+margin: 5px 10px;
+}
+
 .størrelser {
     display: flex;
     flex-direction: row;  
@@ -163,6 +174,14 @@ footer {
 }
 
 
+.social {
+margin-top: 1em;
+}
+
+.footer_menu {
+  margin-left: 1em;
+}
+
 .margin_left {
     margin-left: 3.5em;
 }
@@ -177,4 +196,13 @@ footer {
 
 .all_children_margin > * > *  {
     margin: 0.33em;
+}
+
+ 
+.knap_tilføj_til_kurv:link {
+  opacity: 0.8; 
+}
+
+.knap_tilføj_til_kurv:hover {
+  opacity: 1.0;  
 }
